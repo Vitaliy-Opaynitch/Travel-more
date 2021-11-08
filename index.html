@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Travel more</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title"> <span class="header__title--large">Bhromaon</span> <br> <span
+                class="header__title--small">Safe Travel Anywhere</span></h1>
+        <div class="header__search form">
+
+            <form action="http://google.com/search" target="_blank">
+                <input type="search" placeholder="Search Your Travel Destination" class="form__input">
+                <input type="hidden" name="as_sitesearch" value="">
+                <button class="form__button buttons" type="submit">
+                    <span class="form__button--text">Search</span> <svg version="1.1" width="32" height="32"
+                        viewbox="0 0 32 32">
+                        <g id="icomoon-ignore"></g>
+                        <path
+                            d="M28.591 27.273l-7.263-7.264c1.46-1.756 2.339-4.010 2.339-6.471 0-5.595-4.535-10.129-10.129-10.129-5.594 0-10.129 4.535-10.129 10.129 0 5.594 4.536 10.129 10.129 10.129 2.462 0 4.716-0.879 6.471-2.339l7.263 7.264 1.319-1.319zM4.475 13.538c0-4.997 4.065-9.063 9.063-9.063 4.997 0 9.063 4.066 9.063 9.063s-4.066 9.063-9.063 9.063c-4.998 0-9.063-4.066-9.063-9.063z"
+                            fill="#ffffff"></path>
+                    </svg>
+                </button>
+            </form>
+
+        </div>
+        <div class="header__scroll scroll">
+            <a href="#anchor" class="scroll__link"><span class="scroll__down">Scroll Down</span>
+                <img src="./img/down.png" alt="scroll" class="scroll__link--pic"></a>
+        </div>
+        <nav class="header__nav menu">
+            <p class="menu__name">Bhromaon</p>
+            <button class="menu__burger" id="btn" onclick="getBurger()">
+                <div class="line"></div>
+            </button>
+            <ul class="menu__list list" id="menu-list">
+                <li class="list__item"> <a href="#anchor1" class="list__item--link">Who we are</a> </li>
+                <li class="list__item"> <a href="#anchor2" class="list__item--link">What we do</a> </li>
+                <li class="list__item"> <a href="#anchor3" class="list__item--link">Travel with us</a> </li>
+                <li class="list__item"> <a href="#anchor4" class="list__item--link">Contact us</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="choose-us" id="anchor1">
+            <div class="choose-us__content content">
+                <h2 class="content__title block-title">Why Choose Us</h2>
+                <p class="content__text text">Tion and dislike men who are so beguiled and demoralized by desire by the
+                    charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+                <p class="content__text text">Ddislike men who are so beguiled and demoralized by the charms of pleasure
+                    of
+                    the moment, so blinded by desire, that.</p>
+                <button class="buttons">Explore Places</button>
+            </div>
+            <div class="choose-us__gallery">
+                <img src="./img/Image2.png" alt="photo" class="gallery__foto-up gallery__foto-anim">
+                <img src="./img/Image1.png" alt="photo" class="gallery__foto-down gallery__foto-anim">
+            </div>
+        </section>
+        <div class="bar">
+            <img src="./img/Shape1.svg" alt="shape" class="bar__svg-image">
+            <div class="bar__pic"> <img src="./img/done.png" alt="search"> <a href="#" class="bar__link"> Search
+                    Places</a>
+            </div>
+            <div class="bar__pic center"> <img src="./img/search.png" alt="select"> <a href="#" class="bar__link">Select
+                    Places</a> </div>
+            <div class="bar__pic"> <img src="./img/like.png" alt="book">
+                <a href="#" class="bar__link">Book & Enjoy</a>
+            </div>
+        </div>
+        <section class="spain-gen spain-up" id="anchor2">
+            <div class="spain-up__container spain__content">
+                <span class="spain__content--name">Spain</span>
+                <h3 class="spain__content--title">Grand Spain Madrid</h3>
+                <p class="spain__content--text text">But I must explain to you how all this mistaken idea of account to
+                    denouncing pleasure and praising pain was account born and I account will give you a complete
+                    account of the system</p>
+                <button class="buttons">Book Now</button>
+            </div>
+        </section>
+        <section class="spain-gen spain-down" id="anchor3">
+            <div class="spain-down__container spain__content">
+                <span class="spain__content--name">Spain</span>
+                <h3 class="spain__content--title">Grand Spain Madrid</h3>
+                <p class="spain__content--text text">But I must explain to you how all this mistaken idea of account to
+                    denouncing pleasure and praising pain was account born and I account will give you a complete
+                    account of the system</p>
+                <button class="buttons">Book Now</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="anchor4">
+        <div class="footer__wrap">
+            <h4 class="footer__title block-title">What Our Tourist Say</h4>
+            <div class="footer__content content-footer">
+                <img src="./img/picturefooter.png" alt="pic" class="content-footer__picture">
+                <div class="content-footer__wrapper">
+                    <span class="content-footer__item">Sam Sumon</span>
+                    <p class="content-footer__text text"> <i class="fas fa-quote-left" id="quote"></i>But I must explain
+                        to
+                        you how all this mistaken idea of account to denouncinpleasure and praising pain But I must
+                        explain to you how all this mistaken idea of account to nai denouncing pleasure and praising
+                        pain was account born and I account will give you a complete account of the system was account
+                        born and I account will give you a nai the complete account of the system</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__social social">
+            <p class="social__logo"><img src="./img/footerlogo.png" alt="logo"></p>
+            <ul class="social__list list-social" id="anchor">
+                <li>
+                    <a href="https://uk-ua.facebook.com/" class="list-social__icon"><i
+                            class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" class="list-social__icon"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://ru.linkedin.com/" class="list-social__icon"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

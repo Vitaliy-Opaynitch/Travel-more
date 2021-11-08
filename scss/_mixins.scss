@@ -1,0 +1,13 @@
+@mixin background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flexEvenly {
+    display: flex;
+    justify-content: space-evenly;
+}
